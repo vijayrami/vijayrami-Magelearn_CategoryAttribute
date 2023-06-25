@@ -1,0 +1,22 @@
+{
+    "name": "magelearn/module-CategoryAttribute",
+    "description": "Magento2 add color picker, date picker, Image upload, Select and multi-select attribute in category add/edit admin UI Component form",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "vijaymrami@gmail.com",
+            "name": "vijay rami"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magelearn\\CategoryAttribute\\": ""
+        }
+    }
+}
